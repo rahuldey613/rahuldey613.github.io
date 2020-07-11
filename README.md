@@ -1,4 +1,4 @@
-# rahuldey613.github.io
+
 # Portfolio Website
 
 ### Click below to view my portfolio website
@@ -10,7 +10,7 @@
 <p align="center"> 
   <kbd>
   	<a href="https://rahuldey613.github.io/" target="_blank">
-		<img src="image.png"></img>
+		<img src="pic.png"></img>
 	</a>
   </kbd>
 </p>
