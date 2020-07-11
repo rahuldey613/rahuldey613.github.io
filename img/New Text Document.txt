@@ -1,0 +1,6 @@
+"A Text Based Java Bank Server,which illusted how the System Works.",
+                                "A real time location based system clustering developed in jupyter, Pandas and NumPy",
+                                "Guided by Prof. Neena Jha, Computer Science and Engineering, BIT Mesra.  A Chabot based social networking website dedicated for the students of BIT Deoghar for an independent and effective communication platform along with a Chabot having a text-based user interface for quick responses to institute related queries.",
+                                "It is a simple probablity on Diabetics stats by considering BP,Heartrate,etc.",
+                                "Guided by Asst. Prof. Maihender Das, Electronics and communication Engineering and Asst.Prof. Sri Hari Guray,Electrical and Electronics Engineering, BIT Mesra. LabView"
+                            ];
