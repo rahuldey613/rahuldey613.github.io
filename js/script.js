@@ -1,11 +1,26 @@
-$(document).ready(function(){
-  $('.fa-chevron-up').click(function () {
-        $('body').animate({
-            scrollTop: 0
-        }, 400);
-        return false;
-    });
-});
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menuToggle");
+  const navLinks = document.getElementById("navLinks");
+  const navItems = navLinks ? navLinks.querySelectorAll("a") : [];
 
-// inspired by 
-// https://dribbble.com/shots/920939-Portfolio-Redesign-2013-early-stage?list=searches&tag=portfolio&offset=22
+  if (menuToggle && navLinks) {
+    menuToggle.addEventListener("click", function () {
+      navLinks.classList.toggle("open");
+    });
+
+    navItems.forEach(function (link) {
+      link.addEventListener("click", function () {
+        navLinks.classList.remove("open");
+      });
+    });
+
+    document.addEventListener("click", function (event) {
+      const isClickInsideNav = navLinks.contains(event.target);
+      const isClickToggle = menuToggle.contains(event.target);
+
+      if (!isClickInsideNav && !isClickToggle) {
+        navLinks.classList.remove("open");
+      }
+    });
+  }
+});
