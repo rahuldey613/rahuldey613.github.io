@@ -15,12 +15,38 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     document.addEventListener("click", function (event) {
-      const isClickInsideNav = navLinks.contains(event.target);
-      const isClickToggle = menuToggle.contains(event.target);
+      const isInsideNav = navLinks.contains(event.target);
+      const isToggle = menuToggle.contains(event.target);
 
-      if (!isClickInsideNav && !isClickToggle) {
+      if (!isInsideNav && !isToggle) {
         navLinks.classList.remove("open");
       }
+    });
+  }
+
+  const revealElements = document.querySelectorAll(".reveal");
+
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver(
+      function (entries, obs) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            obs.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0.12,
+      }
+    );
+
+    revealElements.forEach(function (element) {
+      observer.observe(element);
+    });
+  } else {
+    revealElements.forEach(function (element) {
+      element.classList.add("visible");
     });
   }
 });
