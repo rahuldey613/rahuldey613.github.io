@@ -1,163 +1,359 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahul Dey | Frontend Software Engineer</title>
+  <meta
+    name="description"
+    content="Rahul Dey is a Frontend Software Engineer specializing in Angular, React, UI/UX, SaaS, and healthcare workflow products."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="logo">Rahul Dey</a>
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Web Projects</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/star.png" type="image/x-icon" />
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Indie+Flower'>
-        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href='../css/web_projects.css'>
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/services.css">
-        <link rel="stylesheet" href="../css/animate.css">
-        <link rel="stylesheet" href="../css/flexslider.css">
-    </head>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
 
-    <body>
-        <div class="header">
-            <div class="fixed-content">
-                <img class="port" src="../img/pic01.JPG">
-                <h2>Rahul Dey</h2>
-                <p style="color:#fff;">Web Developer </p>
-                <div class="icon-row">
-                    <a href="https://github.com/rahuldey613"><i class="fa fa-github"></i></a>
-                    <a href="https://medium.com/@rahul.dey613"><i class="fa fa-medium"></i></a>
-                    <a href="https://www.linkedin.com/in/rahul-dey-0b7a89152/"><i class="fa fa-linkedin"></i></a>
-                    <a href="https://twitter.com/Rahuldey613"><i class="fa fa-twitter"></i></a>
-                </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            Frontend Software Engineer
+          </p>
+
+          <h1>
+            Building clean, scalable interfaces for SaaS and healthcare products.
+          </h1>
+
+          <p class="hero-text">
+            I’m Rahul Dey, a frontend-focused software engineer with experience in
+            Angular, React, UI/UX, and workflow optimization. I build practical,
+            high-clarity products that improve usability, efficiency, and business outcomes.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="mailto:rahul.dey613@gmail.com">Contact Me</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/rahul-dey-0b7a89152/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-secondary" href="https://github.com/rahuldey613" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-card">
+              <h3>30%</h3>
+              <p>Reduced manual intervention through workflow optimization.</p>
             </div>
+            <div class="metric-card">
+              <h3>25%</h3>
+              <p>Improved operational efficiency tied to revenue growth.</p>
+            </div>
+            <div class="metric-card">
+              <h3>React + Angular</h3>
+              <p>Frontend experience across SaaS and healthcare products.</p>
+            </div>
+          </div>
         </div>
-        <div class="second">
-            <div class="fixed-content">
-                <h1>Projects</h1>
-                <p>Here are some of my web development projects.</p>
+
+        <aside class="hero-panel">
+          <div class="profile-card">
+            <div class="profile-image-wrap">
+              <img src="img/profile.jpg" alt="Rahul Dey" class="profile-image" />
             </div>
+
+            <h2>Rahul Dey</h2>
+            <p class="profile-role">
+              Frontend Software Engineer focused on Angular, React, UI/UX, and product-driven development.
+            </p>
+
+            <div class="tag-list">
+              <span>Angular</span>
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>UI/UX</span>
+              <span>SaaS</span>
+              <span>Healthcare Tech</span>
+            </div>
+
+            <div class="mini-info">
+              <div class="mini-info-item">
+                <strong>Currently</strong>
+                <p>Building UI/UX and frontend workflows for healthcare RCM software.</p>
+              </div>
+              <div class="mini-info-item">
+                <strong>Open to</strong>
+                <p>Frontend Engineer, UI Engineer, and Product Engineer roles.</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">About</p>
+          <h2>Frontend engineer with product thinking</h2>
+          <p>
+            I combine frontend engineering with business understanding to build interfaces
+            that are clean, usable, and aligned with real workflow needs. My background in
+            engineering and MBA studies helps me think beyond visuals and focus on impact.
+          </p>
         </div>
 
-        <!-- ****************************************PROJECT START***************************************************************  -->
-        <section class="colorlib-experience" data-section="experience">
-            <div class="colorlib-narrow-content">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                        <h2>Web Development Projects</h2>
-                        <hr>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="timeline-centered">
-                                <script type="text/javascript">
-                                    var timeSpan = ["May 2020 - July 2020", "Feb 2020 - March 2020",
-                                        "Sept 2019 - Dec 2019", "May 2019 - June 2019", "Jan 2019 - April 2019"
-                                    ];
-                                    var AT = ["E-Commerce Website","Covid-19-Prevention & Live stats website", "Green Screen ",
-                                        "Grid Layout", "Student Feedback System"
-
-                                    ];
-                                    var internType = ["Company Project", "Personal Pandemic Project",
-                                        "Minor Project (6th Semester)", "Personal Project",
-                                        "5th Semester University Project"
-                                    ];
-                                    var descriptions = [
-                                        "E-Commerce site for students/Aspirants to order their study material,coaching stuffs and other Customizable merchandise ",
-                                        "Covid-19 Prevention,Symptoms and live stats website using HTML,CSS,PHP and MYSQL ",
-                                        "Guided by Duke University,California.A System which changes the Backgroung of a pic with any of the give Pictures.",
-                                        "It is an interativate layout Grid based HTML5 and CSS3 for website rendering.",
-                                        "Student Feedback System for college students have been developed which aims to rate and analyse the college faculty’s performance..    with MySQL database and PHP."
-                                    ];
-                                    var iclass = ["cart-plus", "ambulance", "comment", "hourglass", "user"];
-                                    var urls = ["https://www.Custkart.in",
-                                        "https://github.com/rahuldey613/Corona",
-                                        "https://github.com/rahuldey613/Green-Screen-Project",
-                                        "https://github.com/rahuldey613/Css-Grid-Layout",
-                                        "https://github.com/rahuldey613/Student_Feedback_System"
-                                    ];
-                                    var color = [5, 1, 2];
-                                    for (let i = 0; i < AT.length; i++) {
-                                        var dir = (i % 2 == 0) ? "Right" : "Left";
-                                        document.write(
-                                            '<article class="timeline-entry animate-box" data-animate-effect="fadeIn' +
-                                            dir + '">\
-                                    <div class="timeline-entry-inner">\
-                                        <div class="timeline-icon color-' + color[i] + '">\
-                                            <i class="fa fa-' + iclass[i] + '"></i>\
-                                        </div>\
-                                        <div class="timeline-label">\
-                                            <h2><a href="' + urls[i] + '">' + AT[i] + '</a> <span>' + timeSpan[i] + '</span></h2>\
-                                            <p><strong><a href="' + urls[i] + '">' + internType[i] + '</a></strong>\
-                                                <br> ' + descriptions[i] + '</p>\
-                                            <p></p>\
-                                        </div>\
-                                    </div>\
-                                </article>');
-                                    }
-
-                                </script>
-                                <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                                    <div class="timeline-entry-inner">
-                                        <div class="timeline-icon color-3">
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-        </section>
-        <!-- ****************************************PROJECT END****************************************************************  -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-        </script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
-        <script src="../js/jquery.easing.1.3.js"></script>
-        <script src="../js/jquery.waypoints.min.js"></script>
-        <script src="../js/jquery.flexslider-min.js"></script>
-        <script src="../js/owl.carousel.min.js"></script>
-        <script src="../js/jquery.countTo.js"></script>
-        <script src="../js/services.js"></script>
-        <script src="../js/modernizr-2.6.2.min.js"></script>
-        <script src="../js/script.js"></script>
-        <div class="footer">
-            <div class="second">
-                <div class="fixed-content">
-                    <h1>Contact Me</h1>
-                </div>
-            </div>
-            <div class="fixed-content">
-                <div class="icon-row blue">
-                    <a href="https://twitter.com/Rahuldey613"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.facebook.com/rahul.dey613/"><i class="fa fa-facebook"></i></a>
-                    <a href="mailto:rahul.dey613@gmail.com"><i class="fa fa-envelope"></i><a/a> <a
-                            href="https://stackoverflow.com/users/13909777/rahul-d"><i
-                                class="fa fa-stack-overflow"></i></a>
-                        <a href="https://www.instagram.com/lil__okie___/?hl=en"><i class="fa fa-instagram"></i></a>
-                </div>
-                <p></p>
-                <i class="fa fa-chevron-up black" style="color:#000;"
-                    onclick="window.scroll({  top: 0,  left: 0,  behavior: 'smooth'});"></i>
-            </div>
+        <div class="two-col-grid">
+          <div class="card">
+            <h3>What I do</h3>
+            <p>
+              I build modern frontend experiences using Angular, React, JavaScript, HTML, and CSS,
+              with a strong focus on usability, responsiveness, and maintainable UI structure.
+            </p>
+          </div>
+          <div class="card">
+            <h3>What I bring</h3>
+            <p>
+              Hands-on experience across SaaS and healthcare workflow systems, plus a mindset
+              centered on clear interfaces, user experience, and measurable business improvement.
+            </p>
+          </div>
         </div>
-    </body>
+      </div>
+    </section>
 
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Skills</p>
+          <h2>Core stack and strengths</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Frontend</h3>
+            <ul>
+              <li>Angular</li>
+              <li>React.js</li>
+              <li>JavaScript (ES6+)</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>UI / Product</h3>
+            <ul>
+              <li>UI/UX Design</li>
+              <li>Responsive Design</li>
+              <li>Component-based UI</li>
+              <li>Figma</li>
+              <li>Design Handoff</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Workflow</h3>
+            <ul>
+              <li>REST API Integration</li>
+              <li>Git</li>
+              <li>Agile Collaboration</li>
+              <li>SaaS Development</li>
+              <li>Healthcare RCM Workflows</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Projects</p>
+          <h2>Selected work</h2>
+          <p>
+            Since some current work is organization-specific, this section highlights
+            sanitized, recruiter-safe summaries and public-facing work.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-top">
+              <h3>Healthcare RCM Workflow Platform</h3>
+              <span>Case Study</span>
+            </div>
+            <p>
+              Designed and improved UI/UX for healthcare billing workflows, helping reduce
+              manual effort and improve operational efficiency through better interface structure.
+            </p>
+            <div class="tag-list">
+              <span>Angular</span>
+              <span>UI/UX</span>
+              <span>Healthcare</span>
+              <span>Workflow Design</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <h3>AI-Driven SaaS Management Platform</h3>
+              <span>Case Study</span>
+            </div>
+            <p>
+              Contributed to a React-based SaaS application for business operations,
+              focused on responsive frontend development and better cross-device usability.
+            </p>
+            <div class="tag-list">
+              <span>React</span>
+              <span>SaaS</span>
+              <span>JavaScript</span>
+              <span>Responsive UI</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <h3>Portfolio Refresh</h3>
+              <span>Public</span>
+            </div>
+            <p>
+              Redesigned personal portfolio to better align with recruiter expectations,
+              modern frontend presentation, and stronger professional positioning.
+            </p>
+            <div class="tag-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Brand Positioning</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <h3>Upcoming Public Builds</h3>
+              <span>Planned</span>
+            </div>
+            <p>
+              Public, recruiter-safe versions of enterprise-inspired dashboards and task systems
+              that demonstrate product thinking without exposing company-specific details.
+            </p>
+            <div class="tag-list">
+              <span>Angular</span>
+              <span>React</span>
+              <span>Frontend Architecture</span>
+              <span>GitHub Ready</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Experience</p>
+          <h2>Professional experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="card timeline-item">
+            <div class="timeline-top">
+              <div>
+                <h3>Software Developer</h3>
+                <p class="company">Clinical Excel Computech</p>
+              </div>
+              <span>Mar 2024 - Present</span>
+            </div>
+            <ul>
+              <li>Designed and improved frontend workflows for healthcare RCM software.</li>
+              <li>Built and supported Angular-based interfaces for enterprise use cases.</li>
+              <li>Reduced manual intervention by 30% through workflow optimization.</li>
+              <li>Contributed to improvements associated with 25% higher operational efficiency.</li>
+            </ul>
+          </div>
+
+          <div class="card timeline-item">
+            <div class="timeline-top">
+              <div>
+                <h3>Software Engineer</h3>
+                <p class="company">MindGraph Technologies</p>
+              </div>
+              <span>Sep 2021 - Sep 2022</span>
+            </div>
+            <ul>
+              <li>Worked on a React-based SaaS platform for AI-driven business workflows.</li>
+              <li>Built responsive frontend features using React, JavaScript, HTML, and CSS.</li>
+              <li>Contributed to feature planning, reviews, and cross-device quality.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Contact</p>
+          <h2>Let’s connect</h2>
+          <p>
+            If you're hiring for frontend, UI, or product-focused engineering roles,
+            I’d be glad to connect.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <a class="card contact-card" href="mailto:rahul.dey613@gmail.com">
+            <h3>Email</h3>
+            <p>rahul.dey613@gmail.com</p>
+          </a>
+
+          <a class="card contact-card" href="https://www.linkedin.com/in/rahul-dey-0b7a89152/" target="_blank" rel="noreferrer">
+            <h3>LinkedIn</h3>
+            <p>rahul-dey-0b7a89152</p>
+          </a>
+
+          <a class="card contact-card" href="https://github.com/rahuldey613" target="_blank" rel="noreferrer">
+            <h3>GitHub</h3>
+            <p>github.com/rahuldey613</p>
+          </a>
+
+          <div class="card contact-card">
+            <h3>Location</h3>
+            <p>Ahmedabad, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Rahul Dey. Built with a cleaner, recruiter-focused approach.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
 </html>
